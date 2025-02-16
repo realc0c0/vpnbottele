@@ -1,0 +1,22 @@
+{
+  "name": "telegram-vpn-bot",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/bot.ts",
+    "build": "tsc",
+    "start": "node dist/bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1",
+    "@supabase/supabase-js": "^2.39.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/node-telegram-bot-api": "^0.64.3",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
